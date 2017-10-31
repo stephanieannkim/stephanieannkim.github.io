@@ -1,10 +1,10 @@
 body {
-	background-image: url("images/background.jpeg");
+	background: url("https://static.pexels.com/photos/235985/pexels-photo-235985.jpeg");
 	font-family: helvetica;
 }
 
 h1, p {
-	color: navy;
+	color: white;
 }
 
 #slogan {
