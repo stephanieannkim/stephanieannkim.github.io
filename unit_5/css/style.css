@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:700|Shadows+Into+Light+Two');
+
+body {
+	background: url("https://static.pexels.com/photos/235985/pexels-photo-235985.jpeg");
+}
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+aside {
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+    background-color: ##E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+div {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+section {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+h1 {
+	font-family: 'Frank Ruhl Libre', serif;
+	color: white;
+}
+
+p {
+  color: white;
+  font-size: 18px;
+  line-height: 1.5em;
+  margin: 3em;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+a {
+	font-family: 'Frank Ruhl Libre', serif;
+	color: #64F581;	
+}
+
+#slogan {
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
