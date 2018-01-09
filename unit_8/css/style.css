@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:700|Shadows+Into+Light+Two');
+
+body {
+	font-size: 10px;
+  background: url("https://static.pexels.com/photos/235985/pexels-photo-235985.jpeg");
+}
+
+header {
+    padding: 2%;
+    font-size: 2em;
+}
+
+nav {
+    float: right;
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    color: #000;
+    background: white;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 1em;
+}
+
+nav a {
+  color: #000000;
+}
+
+img {
+  width: 100%;
+}
+
+article {
+    padding: 2%;
+    width: 100%;
+}
+
+footer {
+  text-align: center;
+  clear: both;
+  background: black;
+  padding: 1%;
+}
+
+div {
+    padding: 5%;
+}
+
+h1 {
+	font-family: 'Frank Ruhl Libre', serif;
+	color: white;
+  font-size: 2em;
+}
+
+p {
+  color: white;
+  font-size: 2em;
+  line-height: 1.5em;
+  margin: 3em;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+a {
+	font-family: 'Frank Ruhl Libre', serif;
+  color: white;
+  font-size: 2em;
+}
+
+#left {
+    padding: 2%;
+    float: left;
+    width: 25%;
+}
+
+#right {
+    padding: 2%;
+    float: right;   
+    width: 60%;
+}
+
+#franny1, #chloe1 {
+  display: block;
+  margin: 0;
+}
+
+@media only screen and (max-width: 650px) {
+  nav {
+    float: none;
+    width: 100%;
+  } 
+
+  }
+  nav a {
+      margin: 2%;
+      float: none;
+  }
+
+  #left {
+    width: 100%;
+    float: none;
+  }
+
+  #right {
+    width: 100%;
+    margin: 0;
+    float: none;
+  }
+}
